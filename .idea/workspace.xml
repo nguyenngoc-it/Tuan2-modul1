@@ -2,21 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8df6813-a14c-4a96-8423-84e66dea53c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson5/BT-FORMDK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/BT-SURVERY.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/BT-TABLENC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/BT-TABLENC2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/BT-TAOBANGDG.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/CSS/btnc2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/CSS/bttablenc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/CSS/singup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/CSS/survery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/CSS/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/CSS/tablenc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/CSS/taobangdg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/TH-TABLE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/TH-TABLENC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/TH-TAOFORMCB.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/CSS/cv.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/cv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/mycv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/BT-CHUVIHT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/BT-DTHT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/BT-KDLANDTT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/BT-MAYTINH.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/BT-TIENTE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/BT-temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/TH-KBB.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/TH-KBB2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/TH-SDTT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/css/tiente.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/js/btkdltt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/js/btmaytinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/js/chuvi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/js/dtht.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/js/temperature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/js/thsdtt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/js/tiente.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/BT-TAOCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/BT-TAOCV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +38,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lesson5" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1sCWuWAIbDHvVtC02jgMjv2a2x7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -58,6 +72,16 @@
       <recent name="D:\Module1\lesson5" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Module1/lesson4/test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.test.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +92,11 @@
       <updated>1620377274769</updated>
       <workItem from="1620377276103" duration="28732000" />
       <workItem from="1620569814012" duration="9167000" />
-      <workItem from="1620607896550" duration="15044000" />
+      <workItem from="1620607896550" duration="21913000" />
+      <workItem from="1620695845339" duration="14514000" />
+      <workItem from="1620746561335" duration="4621000" />
+      <workItem from="1620783425122" duration="19465000" />
+      <workItem from="1620825326028" duration="7656000" />
     </task>
     <servers />
   </component>

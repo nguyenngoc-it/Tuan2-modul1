@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/tiente.js"></script>
+    <link rel="stylesheet" href="css/tiente.css">
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input id="nhap" type="text"></td>
+        <td>
+            <select id="from" >
+                <option value="vn" >VietNam</option>
+                <option value="usd" >USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="to" >
+                <option value="usd" >USD</option>
+                <option value="vn" >VietNam</option>
+
+            </select>
+        </td>
+        <td><button onclick="convert()"  >Convert</button></td>
+    </tr>
+    <tr>
+        <td id="result" style="float: left; padding-left: 70px">Result : </td>
+
+    </tr>
+</table>
+
+</body>
+</html>
