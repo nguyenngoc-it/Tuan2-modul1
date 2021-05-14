@@ -1,5 +1,5 @@
-function cong(){
-    console.log("111");
+/*function cong(){
+
     let trai = document.getElementById("left").value;
     let phai = document.getElementById("right").value;
 
@@ -41,5 +41,24 @@ function chia(){
     let thuong=(T/P);
     document.getElementById("resultt").innerHTML= + thuong;
 
- }
+ }*/
 
+/*
+ switch (function ()) {
+     case (cong):
+
+     function cong(){
+
+         let trai = document.getElementById("left").value;
+         let phai = document.getElementById("right").value;
+
+
+         let T= parseInt(trai);
+         let P= parseInt(phai);
+
+
+         let tong=(T+P);
+         document.getElementById("resultt").innerHTML= + tong;
+     }
+
+ }*/
