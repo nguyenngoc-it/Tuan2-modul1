@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("moi nhap gia tri cua a:"));
+    let b = parseInt(prompt("moi nhap gia tri cua b:"));
+    let c = parseInt(prompt("moi nhap gia tri cua c"));
+
+    if (a === 0) {
+        if (b === 0) {
+            if (c === 0) {
+                console.log("phuong trinh vo so nghiem")
+            } else {
+                console.log("phuong trinh vo nghiem")
+            }
+
+
+        } else {
+            let result = -c / b;
+            console.log(result);
+        }
+    } else {
+        let detal = b * b - 4 * a * c;
+        if(detal>0)
+        {
+            let x1= (-b+Math.sqrt(detal))/(2*a);
+            let x2= (-b-Math.sqrt(detal))/(2*a);
+            console.log("phuong trinh co 2 nghiem: x1= "+ x1 +' x2= '+x2);
+
+        }else if (detal==0)
+        {
+            let sum= -b/2*a;
+            console.log("phuong trinh co nghiem kep x1=x2= "+ sum);
+
+        }else {
+            console.log("phuong trinh vo nghiem");
+        }
+
+    }
+
+</script>
+</body>
+</html>

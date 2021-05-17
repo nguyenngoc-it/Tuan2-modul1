@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            width: 200px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+<img id="img1"  onclick="clickImg(), check()" src="img/2.jpg" alt="">
+<img id="img2" onclick="clickImg2(), check()" src="img/3.jpg" alt="">
+
+
+<script>
+    let img = document.getElementById("img1");
+
+    let img2 = document.getElementById("img2");
+    let count = 1;
+
+    function clickImg() {
+
+        if (count === 1) {
+            img.src = "img/3.jpg";
+            count++;
+
+        } else if (count === 2) {
+            img.src = "img/4.jpg";
+            count++;
+
+        } else if (count === 3) {
+            img.src = "img/2.jpg"
+            count = 1;
+        }
+
+    }
+    function clickImg2() {
+
+        if (count === 1) {
+            img2.src = "img/3.jpg";
+            count++;
+
+        } else if (count === 2) {
+            img2.src = "img/4.jpg";
+            count++;
+
+        } else if (count === 3) {
+            img2.src = "img/2.jpg"
+            count = 1;
+        }
+
+    }
+    function check()
+    {
+        if (img.src=img2.src)
+        {
+            alert("win");
+        }
+    }
+
+
+</script>
+</body>
+</html>

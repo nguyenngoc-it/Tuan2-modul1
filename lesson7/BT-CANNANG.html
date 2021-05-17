@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let height = prompt("mời nhập chiều cao");
+    let weight = prompt(' mời nhập cân nặng');
+    let BMI = weight / (height * height);
+
+    console.log(BMI);
+    // alert("BMI=" + BMI);
+
+    if (BMI < 18.5) {
+        console.log("Underweight");
+        // alert(" Underweight");
+    } else if (18.5 <= BMI && BMI< 25) {
+        // alert("Normal");
+        console.log("Normal");
+    } else if (25 <= BMI && BMI< 30) {
+        console.log("Overweight");
+        // alert("Overweight");
+    }
+    else {
+      alert("Obese");
+    }
+
+</script>
+</body>
+</html>
