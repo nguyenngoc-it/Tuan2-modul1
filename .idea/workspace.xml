@@ -2,33 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8df6813-a14c-4a96-8423-84e66dea53c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bt-test/clock.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bt-test/clock.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bt-test/clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Monday/TH-DOWHILE/dowhile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Monday/TH-LOOP/loop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Monday/TH-USEFORLOOP/forloop1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Monday/TH-USEFORLOOP/forloop2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Monday/TH-WHILELOOP/whileloop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Monday/TH-WHILELOOP/whileloop2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Thursday/BT- dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Thursday/BT-Arrayone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Thursday/BT-Faking Textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Thursday/BT-array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Thursday/BT-array5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Thursday/BT-array7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/BCC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/BT-SNT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/BT6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/BT8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/INTAMGIAC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/fibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/loop1_100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Tuesday/temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Wednesday/TH-Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Wednesday/TH-Array3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Wednesday/TH-CARO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Wednesday/TH-MAXARRAY.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Wednesday/TH-REVERSE.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson5/CSS/cv.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson5/cv.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson5/mycv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/BT-EVENTM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/BT-MAYTINHNC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/BT-THIF-ELSE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/SWITCH-CASE2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/TH-EVENKEY.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/TH-IFELSE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/TH-LEAPYEAR.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/TH-TT3N.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/js/ifelse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/js/leapyear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/js/switch-case.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/js/thifesle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/switch-case.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/BT-TAOCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/BT-TAOCV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson5" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/BT-MAYTINH.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/BT-MAYTINH.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/js/btmaytinh.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/js/btmaytinh.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -69,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Module1\lesson10\Monday" />
       <recent name="D:\Module1\lesson5\BT-TAOFORMDG" />
       <recent name="D:\Module1\lesson5" />
     </key>
@@ -100,6 +108,18 @@
       <workItem from="1620825326028" duration="11415000" />
       <workItem from="1620868379643" duration="15114000" />
       <workItem from="1620913527481" duration="8391000" />
+      <workItem from="1620954451480" duration="14238000" />
+      <workItem from="1621051760305" duration="39038000" />
+      <workItem from="1621162850115" duration="3156000" />
+      <workItem from="1621214105169" duration="19584000" />
+      <workItem from="1621260325957" duration="12323000" />
+      <workItem from="1621299784196" duration="21553000" />
+      <workItem from="1621346633491" duration="8707000" />
+      <workItem from="1621385902601" duration="8747000" />
+      <workItem from="1621414662675" duration="2698000" />
+      <workItem from="1621432760282" duration="7874000" />
+      <workItem from="1621474635004" duration="17171000" />
+      <workItem from="1621520554913" duration="6514000" />
     </task>
     <servers />
   </component>

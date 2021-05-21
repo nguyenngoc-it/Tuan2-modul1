@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Caro Game Simple</h3>
+<div id="carogame">
+
+</div>
+<!--<input type="button" value="change Value" onclick="changeValue()">-->
+<script>
+ let boardElement= document.getElementById("carogame");
+
+ let dataOfCaro= [];// luu tru cac o caro bang array
+
+ let dataElmentHtml= "";
+
+ // create array from [] => [[],[].....]
+ for (let i=0; i<5; i++){
+   dataOfCaro[i]= [0,0,0,0,0];
+   // console.log(`Mang dataOfCaro sau moi vong for:" ${i+1}  'voi in dex:' ${i}`);
+   // console.log(dataOfCaro)
+ }
+
+
+
+
+ // console.log(dataOfCaro);
+ for (let i = 0; i < 5; i++) {
+   dataElmentHtml+= "<br/>";
+   for (let j = 0; j < 5; j++) {
+     dataElmentHtml += dataOfCaro[i][j] + "&nbsp;&nbsp"; // data from ""to 0 0 0 0 0 +<br/>
+   }
+ }
+ // "0 0 0 0 0"
+ //"0 0 0 0 0"
+ // ...
+ dataElmentHtml +="<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"
+ boardElement.innerHTML= dataElmentHtml; // xong UI caro
+
+
+ function changeValue() {
+ // nhap toa do o co can thay doi value
+   let positionX= prompt("X:");
+   let positionY= prompt("Y:");
+
+   dataElmentHtml="";
+   dataOfCaro[positionX][positionY]= "x";
+   for (let i = 0; i < 5; i++) {
+     dataElmentHtml+="<br/>";
+     for (let j = 0; j < 5; j++) {
+       dataElmentHtml +=dataOfCaro[i][j] +"&nbsp;&nbsp;&nbsp;&nbsp;"
+     }
+   }
+   dataElmentHtml += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>";
+   boardElement.innerHTML="<hr/> "+ dataElmentHtml;
+ }
+</script>
+</body>
+</html>

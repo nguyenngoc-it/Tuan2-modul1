@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="result">
+
+</div>
+</body>
+<script>
+    // let num= prompt("mời nhập các phần tử của mảng");
+    let arr = [];
+    let resultElm = '';
+    for (let i = 0; i < 5; i++) {
+        let num = +prompt("mời nhập các phần tử của mảng");
+        arr[i] = num;
+        // let a= prompt("mời nhập giá trị cần so sánh");
+
+
+    }
+    console.log(arr)
+    let a = +prompt("mời nhập giá trị cần so sánh");
+    let kt= false;
+    for (let i = 0; i < arr.length; i++) {
+        if(a===arr[i]){
+            kt= true;
+            // arr.splice(i,1);
+
+        }
+        else {
+            kt=false;
+        }
+        if(kt= true ){
+            document.write(" in array");
+            arr.splice(i,1);
+            break;
+        }else {
+            document.write("not in array");
+        }
+
+    }
+/*
+function  showResult (arr){
+    let kt= false;
+    for (let i = 0; i < arr.length; i++) {
+        // console.log(a === arr[i]);
+        if (a === arr[i]) {
+            // console.log(a)
+            kt= true;
+            break;
+
+        } else {
+          kt= false;
+        }
+    }
+    return kt;
+}
+
+// resultElm = showResult(arr);
+//
+//    document.getElementById('result').innerHTML = resultElm;
+
+console.log(showResult(arr))
+*/
+
+
+</script>
+</body>
+</html>

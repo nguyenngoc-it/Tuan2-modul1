@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let a = prompt("nhap n");
+
+    function check(num) {
+        if (num < 2) {
+            return false;
+        } else if (num > 2) {
+            for (let i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    return false;
+                }
+            }
+        }
+            return true;
+
+
+
+    }
+
+    // check(10);
+    // console.log(check(10));
+
+    function hienthi(a) {
+        let count = 0;
+        let b = 1;
+        while (count < a) {
+            if (check(b)) {
+                count++;
+                document.write(b + " ");
+            }
+
+            b++;
+
+        }
+
+    }
+
+    hienthi(a);
+
+
+</script>
+</body>
+</html>

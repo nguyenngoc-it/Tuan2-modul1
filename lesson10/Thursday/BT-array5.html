@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = prompt("moi nhap num");
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+
+    function check() {
+        kt = true;
+        for (let i = 0; i < arr.length; i++)
+        {
+            if (arr[i] === num) {
+                kt = true;
+                // alert("number is in the array");
+            } else {
+                kt = false;
+            }
+
+        }
+        if(kt){
+            alert("in array");
+
+        }
+
+    }
+
+    check();
+
+
+</script>
+</body>
+</html>

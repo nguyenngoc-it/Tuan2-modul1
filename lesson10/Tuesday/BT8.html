@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn" onclick="sapce()" >Click</button>
+<script>
+    let a=parseInt(prompt("giá trị đầu"));
+
+    let b = parseInt(prompt("mời nhập giá trị cuối"));
+
+    let radnumber= Math.floor(Math.random()*(b-a)+a);
+    console.log(radnumber);
+
+    function sapce() {
+        let c= +prompt("nhap gia tri doan");
+        while (c !==radnumber)
+        {
+
+            if( c=== radnumber){
+                console.log("dung")
+            }
+            else if (c<radnumber) {
+
+                alert("giá trị nhập nhỏ hơn random, mời nhập lại");
+                c= +prompt("nhap gia tri doan");
+            }
+            else {
+                alert("giá trị nhập lớn hơn random, mời nhập lại");
+                c= +prompt("nhap gia tri doan");
+            }
+        }
+
+    }
+
+
+
+</script>
+</body>
+</html>
