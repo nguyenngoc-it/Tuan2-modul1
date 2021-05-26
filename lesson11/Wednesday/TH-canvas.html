@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="../bong.png" width="80"  id="img" >
+<canvas id="myCanvas" width="1368px" height="768px" style="border: 1px solid #d3d3d3;"></canvas>
+<script>
+    // let canvas= document.getElementById("myCanvas");
+    // let pen= canvas.getContext('2d');
+    // let img= document.getElementById("img");
+    //
+    // pen.beginPath();
+    // pen.drawImage(img,50,50)
+    function randomNumber(min,max) {
+        return Math.floor(Math.random()*max-min)+min;
+
+    }
+    function draw(number) {
+        for( let i=0; i<number; i++){
+            let x= randomNumber(0, canvas.width);
+            let y= randomNumber(0, canvas.height);
+            let radius=randomNumber(70,150);
+            let circle= new Circle(x,y,radius);
+
+        }
+
+    }
+draw(20);
+</script>
+</body>
+</html>

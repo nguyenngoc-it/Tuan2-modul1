@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="num" type="text">
+<button onclick="isPrime()">Kiểm tra</button>
+<p id="result"></p>
+<script>
+    function isPrime(number) {
+        let kt = false;
+        results = document.getElementById("result");
+        number = parseInt(document.getElementById("num").value);
+
+        if (number < 2) {
+            kt = false;
+            // console.log(kt)
+            // document.getElementById("result").innerHTML= number+ "không phải là số nguyên tố ";
+        } else if (number > 2) {
+            for (let i = 2; i < number; i++) {
+                if (number % i === 0) {
+                    kt = false;
+                    break;
+                } else {
+                    kt = true;
+
+                }
+            }
+        } else {
+            kt = true;
+            // console.log(kt);
+        }
+
+        if (kt === false) {
+            results.innerHTML = number + "không phải là số nguyên tố ";
+        } else {
+            results.innerHTML = number + " là số nguyên tố";
+        }
+
+        return results;
+    }
+
+    isPrime();
+</script>
+</body>
+</html>

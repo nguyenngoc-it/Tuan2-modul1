@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn" onclick="open()">Bật/Tắt</button>
+<script>
+    class Battery {
+        constructor(energy) {
+            this.energy = energy;
+        }
+
+        getenergy() {
+            return this.energy;
+        }
+
+        decreaseenergy() {
+            if (this.energy > 0) {
+                this.energy--;
+            }
+        }
+    }
+
+    class flashlamp {
+        constructor(battery, status) {
+            this.battery = battery;
+            this.status = status;
+        }
+
+
+        getbattery() {
+            return this.battery.energy;
+        }
+
+        turnOn() {
+            this.status = true;
+            this.battery.getenergy();
+            if (this.battery.energy > 0) {
+                alert("lighting");
+               this.battery.decreaseenergy();
+            }
+
+
+        }
+        turnOff(){
+            this.status= false;
+            this.battery.getenergy();
+            if(this.battery.energy<=0){
+                alert("off")
+                this.battery.decreaseenergy();
+            }
+        }
+
+    }
+
+    let battery = new Battery(10);
+
+    let flashlamps = new flashlamp(battery, true);
+
+
+    flashlamps.getbattery();
+    console.log(flashlamps.getbattery())
+    // flashlamps.turnOn();
+    // console.log(flashlamps.turnOn())
+    console.log(flashlamps.getbattery())
+    // flashlamps.turnOff();
+    // console.log(battery)
+    // let btn= document.getElementById("btn");
+    function open() {
+        // flashlamps.turnOn();
+
+            // flashlamps.turnOff();
+
+
+
+
+    }
+
+</script>
+</body>
+</html>

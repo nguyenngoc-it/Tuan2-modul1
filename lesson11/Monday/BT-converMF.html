@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="number" type="number">
+
+<input id="result" type="text">
+<br>
+<select id="select1">
+    <option value="Meters-Feet">Meters-Feet</option>
+    <option value="Feet-Meters">Feet-Meters</option>
+</select>
+<button onclick="footToMeter()">Conver</button>
+
+<script>
+    // num = document.getElementById("number").value;
+    // let a = document.getElementById("select1").value;
+
+    let result= document.getElementById("result");
+
+    function footToMeter() {
+        let a = document.getElementById("select1").value;
+        num = document.getElementById("number").value
+        if (a == "Meters-Feet") {
+            result.value = 0.305 * num;
+        }
+        else  if( a=="Feet-Meters"){
+            result.value= 0.305 * num;
+        }
+    }
+</script>
+</body>
+</html>

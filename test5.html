@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
+    <script>
+    class Rectanged {
+        constructor(a,b)
+        {
+            this.width=a;
+            this.height=b;
+            this.square=a*b;
+        }
+        draw(){
+           console.log(this.width + "chieu rong");
+        }
+    }
+    let rect1 = new Rectanged(2,4);
+    rect1.draw()
+    </script>
+</body>
+</html>

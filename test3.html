@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<input id="VT" type="text">-->
+<!--<input id="GT" type="text">-->
+<!--<button onclick="DEL()">insert</button>-->
+<!--<script>
+    let add = [1, 2, 3, 4, 5];
+    // add.splice(1,0,"abc");
+    let VT = parseInt(document.getElementById("VT").value);
+    let GT = document.getElementById("GT").value;
+
+    function insert() {
+
+        for (let i = 0; i < add.length; i++) {
+            if (VT < 0) {
+                alert("không thể thêm phần tử vào mảng");
+            } else  {
+                add[i] = add[i + 1];
+
+            }
+
+        } add[VT] = GT;
+    }
+
+    document.write(add);
+
+
+</script>-->
+<script>
+
+    let num= +prompt("nhap so");
+    let arr1=[];
+    let arr= [1,2,3,4,5];
+    function DEL(num) {
+        for (let i = num; i <arr.length; i++) {
+            arr[i]=arr[i+1];
+
+        } arr[arr.length-1]= null;
+        // console.log(arr)
+        for (let i = 0; i <arr.length-1; i++) {
+            arr1[i] =arr[i];
+        }
+        return arr1;
+    }
+
+
+    // console.log(arr1)
+
+    DEL();
+    console.log(DEL())
+</script>
+</body>
+</html>

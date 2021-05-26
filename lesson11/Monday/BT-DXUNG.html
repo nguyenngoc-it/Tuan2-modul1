@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = prompt("mời nhập chuỗi");
+    let a = str.split("");
+    kt = false;
+
+    function check(a) {
+
+        for (let i = 0; i < a.length / 2 - 1; i++) {
+            for (let j = a.length - 1; j > a.length / 2; j--) {
+                if (a[i] !== a[j]) {
+                    kt = false;
+
+                }
+
+
+
+            }
+            kt = true;
+        }
+        if (kt) {
+            alert("ko là chuoi dx")
+            return;
+        }
+        alert("là chuoi dx")
+
+    }
+
+    check(a);
+</script>
+</body>
+</html>
