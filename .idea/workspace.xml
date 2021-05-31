@@ -2,38 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8df6813-a14c-4a96-8423-84e66dea53c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case study/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/Friday/TH-array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/Friday/TH-temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Monday/BT-!NUMBER.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Monday/BT-03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Monday/BT-DXUNG.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Monday/BT-SNT.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Monday/BT-converMF.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Tuesday/TH-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Tuesday/TH-Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Tuesday/TH-Funny circles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Wednesday/BT-Mobile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Wednesday/TH-canvas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/Wednesday/TH-flashlamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/basket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/egg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casetudy/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catcheggs/canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catcheggs/eggs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catcheggs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappybird/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappybird/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappybird/p5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappybird/p5.sound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/Thursday/BT-Adam-Eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/Thursday/BT-Mousecat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/Thursday/adam-eva.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/Thursday/mousecat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/Wednesday/mobile.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson5/CSS/cv.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson5/cv.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson5/mycv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/Thursday/BT-array7.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/Thursday/BT-array7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/Wednesday/BT-Mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/Wednesday/BT-Mobile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/BT-TAOCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/BT-TAOCV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson5" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.html" beforeDir="false" afterPath="$PROJECT_DIR$/test6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +78,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Module1\casetudy" />
       <recent name="D:\Module1\lesson10\Monday" />
       <recent name="D:\Module1\lesson5\BT-TAOFORMDG" />
       <recent name="D:\Module1\lesson5" />
@@ -121,7 +132,18 @@
       <workItem from="1621818153982" duration="25411000" />
       <workItem from="1621864429603" duration="15007000" />
       <workItem from="1621953239776" duration="9175000" />
-      <workItem from="1621990991480" duration="15544000" />
+      <workItem from="1621990991480" duration="17604000" />
+      <workItem from="1622042222790" duration="8593000" />
+      <workItem from="1622079759215" duration="14040000" />
+      <workItem from="1622128526649" duration="7285000" />
+      <workItem from="1622136094124" duration="2244000" />
+      <workItem from="1622163222180" duration="21475000" />
+      <workItem from="1622215616623" duration="13586000" />
+      <workItem from="1622231148891" duration="105000" />
+      <workItem from="1622231470666" duration="729000" />
+      <workItem from="1622266597086" duration="44395000" />
+      <workItem from="1622422687479" duration="10805000" />
+      <workItem from="1622434001812" duration="8046000" />
     </task>
     <servers />
   </component>

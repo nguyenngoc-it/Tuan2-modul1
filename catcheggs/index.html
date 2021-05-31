@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<style>
+
+</style>
+<body>
+<script src="eggs.js"></script>
+
+<canvas id="myCanvas" width="450px" height="500px" style="border: 1px solid #d3d3d3;" onmousemove="move(event)">
+
+
+    <!--    <script src="canvas.js"></script>-->
+</canvas>
+</body>
+<script>
+    let canvas = document.getElementById("myCanvas");
+    let pen = canvas.getContext("2d");
+    let bg1 = new bg(450, 500, 0, 0, 'bg.jpg');
+
+    let basket1 = new basket(50, 50, 200, 400, './img/2.png');
+    function move(event) {
+        basket1.clear();
+        basket1.x = event.screenX;
+
+            if(basket1.x >400){
+                basket1.x=400
+            }
+            else if(basket1.x<1){
+                basket1.x=1
+            }
+        bg1.draw();
+        basket1.draw();
+
+    }
+
+
+
+</script>
+</html>

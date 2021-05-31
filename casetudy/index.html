@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="canvas.js"></script>
+    <script src="bg.js"></script>
+    <script src="egg.js"></script>
+    <script src="basket.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<audio autoplay>
+    <source src="./sound/1.mp3" type="audio/mpeg">
+</audio>
+
+<div id="canvas">
+    <canvas id="myCanvas" width="450px" height="500px" style="border: 1px solid #d3d3d3" ;
+            onmousemove="move(event)"></canvas>
+    <p id="score" style="color: red; font-size: 20px">Score:0</p>
+    <button style="display: none" onclick="restar()" id="restar">Restar</button>
+
+</div>
+
+</body>
+<script>
+    // khởi tạo canvas
+    let canvas = document.getElementById("myCanvas");
+    let pen = canvas.getContext("2d");
+    // tạo biến đếm số trứng ko hứng được
+    let count = 0;
+    // tạo biến chạy chương trình
+    let isPlaying = true;
+
+    // tạo hàm clear canvas
+    function clear() {
+        if (!isPlaying) return;
+        pen.clearRect(0, 0, 450, 500);
+        bg.draw();
+        // bg.drawScore();
+        basket1.draw();
+        fallegg();
+        checkcollision();
+        checkout();
+    }
+    // hàm restar
+    let rs= document.getElementById("restar");
+    function restar() {
+        location.reload();
+        rs.style.display= "none";
+
+    }
+
+    // vẽ background
+    let bg = new Bg(450, 500, 0, 0, './img/1.jpg');
+    // khai báo 1 mảng để chứa các đối tượng tại các tọa độ X khác nhau
+
+    let eg = [];
+    // chạy hàm randomeggx 1s 1 lần để truyền thêm phần tử vào mảng eg
+    setInterval(randomeggx, 1000);
+
+    function randomeggx() {
+        let arr = [50, 100, 150, 200, 250, 300]
+        let egg1 = new egg(80, 90, arr[Math.floor(Math.random() * 6)], -20, './img/3.png');
+        eg.push(egg1)
+        // egg1.draw();
+    }
+
+    // gọi hàm fall
+    function fallegg() {
+        for (let i = 0; i < eg.length; i++) {
+            eg[i].fall();
+            eg[i].draw();
+
+            if (eg[i].y >= 500) {
+                eg.splice(i, 1);
+                count++;
+                checkout();
+
+            }
+        }
+    }
+
+    function checkout() {
+        if (count > 5) {
+            pen.font = "30px Arial ";
+            // pen.fillStyle="red"
+            pen.strokeText("End Game", 160, 250);
+            isPlaying = false;
+            rs.style.isplay= "block";
+
+
+        }
+    }
+
+    setInterval(clear, 100);
+
+    // tạo hàm bắt sự kiện chuyển động của giỏ trên trục X
+    let basket1 = new basket(50, 70, 50 , 400, './img/2.png');
+
+    function move(event) {
+        basket1.x = event.screenX;
+        console.log(event)
+        if (basket1.x > 400) {
+            basket1.x = 400
+        } else if (basket1.x < 1) {
+            basket1.x = 1
+        }
+
+    }
+
+    //check va chạm
+    function check(egg1, basket1) {
+        let top1 = egg1.y;
+        let left1 = egg1.x;
+        let right1 = egg1.x + egg1.width;
+        let bot1 = egg1.y + egg1.height;
+
+        let top2 = basket1.y;
+        let left2 = basket1.x;
+        let right2 = basket1.x + basket1.width;
+        let bot2 = basket1.y + basket1.height;
+        if (left2 > right1 || bot2 < top1 || right2 < left1 || top2 > bot1) {
+            return false;
+        }
+        return true;
+    }
+
+    let score = 0;
+
+    function checkcollision() {
+
+        for (let i = 0; i < eg.length; i++) {
+            if (check(basket1, eg[i])) {
+                eg.splice(i, 1);
+                // console.log(eg[i])
+                score++;
+                document.getElementById("score").innerHTML = "score :" + score;
+
+            }
+            if (score > 10) {
+                eg[i].fall(+3)
+            }
+            if (score > 30) {
+                eg[i].fall(+3)
+            }
+            if (score > 50) {
+                eg[i].fall(+3)
+            }
+
+
+        }
+    }
+
+
+</script>
+</html>
