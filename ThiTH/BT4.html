@@ -3,34 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="bt4.js"></script>
 </head>
 <body>
 <div id="canvas">
-    <canvas id="myCanvas" width="450px" height="500px" style="border: 1px solid #d3d3d3" ></canvas>
+    <canvas id="myCanvas" width="450px" height="500px" style="border: 1px solid #d3d3d3"></canvas>
 </div>
 </body>
 <script>
-  class Circle{
-      constructor(x,y,radius,color) {
-          this.x=x;
-          this.y=y;
-          this.radius=radius;
-          this.color= color;
-      }
-      render(){
-          pen.beginPath();
-          pen.arc(this.x,this.y,this.radius,0,2*Math.PI);
-          pen.fillStyle= this.color;
-          pen.fill();
-      }
-  }
     let canvas = document.getElementById("myCanvas");
     let pen = canvas.getContext("2d");
 
-    let circle= new Circle(10,10,100,"#000000");
+    let circle = new Circle(10, 10, 100, "#000000");
 
-
-    circle. render();
+    circle.render();
 </script>
 
 </html>
